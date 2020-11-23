@@ -10,7 +10,7 @@ trait ParserComponents {
 
   trait Parser extends Parsers {
 
-    def parse(expression: String): ParseResult[Tree]
+    def parse(input: String): ParseResult[Tree]
 
   }
 
